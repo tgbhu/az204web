@@ -60,6 +60,6 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'demoaz203appservice'
-          slot-name: 'Production'
+          slot-name: 'test'
           package: .
           
